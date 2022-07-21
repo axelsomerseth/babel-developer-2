@@ -4,8 +4,9 @@
   "description": "A developer who is able to work with Babel to transpile javascript code to standard ES6 code.",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "src": "node src",
+    "lib": "node lib",
+    "build": "babel src -d lib"
   },
   "keywords": [
     "babel"

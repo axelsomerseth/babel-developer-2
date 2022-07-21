@@ -1,7 +1,8 @@
 const plugins = ["babel-plugin-transform-async-to-promises"];
 
 const targets = {
-  chrome: "61",
+  node: "7.5.0",
+  // chrome: "54",
 };
 
 // Uncomment to use preset instead of plug-ins.
